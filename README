@@ -1,0 +1,29 @@
+AI Resume Analyzer
+A web app that gives students instant AI-based feedback on their resume.
+
+Problem
+Most students send the same resume everywhere without any feedback, and paid resume reviews are expensive. This tool gives quick, free feedback.
+
+Features
+- Upload your resume (PDF)
+- Extracts text from the resume
+- AI analysis of strengths, gaps and improvements
+
+Tech Stack
+- Frontend: React (Vite)
+- Backend: Node.js, Express
+- AI: (Goggle Gemini API)
+
+How to Run
+
+Backend:
+cd server
+npm install
+node index.js
+
+Frontend:
+cd client
+npm install
+npm run dev
+
+Create a .env file in the server folder with your API key.
